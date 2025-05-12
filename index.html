@@ -175,19 +175,17 @@
     document.querySelector('#popup-form form').addEventListener('submit', function(e) {
         e.preventDefault();
         
-        // Закрываем форму
         closeForm();
         
-        // Показываем уведомление с задержкой для плавности
+        //уведомление с задержкой для плавности
         setTimeout(function() {
             const notification = document.getElementById('thank-you-notification');
             notification.showModal();
             
-            // Добавляем анимацию появления
+            //анимация появления
             notification.style.display = 'block';
         }, 300);
         
-        // Сбрасываем форму
         this.reset();
     });
     
