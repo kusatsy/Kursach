@@ -125,7 +125,7 @@ body {
 
 /* Секция театра */
 .theater-section {
-  background-image: url("../pictures/маленький театральный зал, более реалистичный.png");
+  background-image: url("/pictures/SmallTheatre.png");
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
