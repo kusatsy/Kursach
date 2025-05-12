@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <images>
+        <image>
+            <src>pictures/SmallTheatre.png</src>
+            <alt>Театр</alt>
+        </image>
+        <image>
+            <src>pictures/woman_2.png</src>
+            <alt>Маска</alt>
+        </image>
+        <image>
+            <src>pictures/mim.jpg</src>
+            <alt>Сердце</alt>
+        </image>
+        <image>
+            <src>pictures/woman.png</src>
+            <alt>Декоративный объект</alt>
+        </image>
+        <image>
+            <src>pictures/GoldMask.png</src>
+            <alt>Золотая маска</alt>
+        </image>
+        <image>
+            <src>pictures/ballerina.jpg</src>
+            <alt>Танцор</alt>
+        </image>
+    </images>
+</gallery>

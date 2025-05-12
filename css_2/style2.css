@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* Импорт шрифтов */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+body {
+  margin: 0;
+  font-family: "Krona One", Arial, sans-serif;
+  background-color: #2f3148;
+  color: #fff;
+  text-align: center;
+}
+
+/* Логотип и название в верхнем левом углу */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.header .logo-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header .logo-title .logo {
+  width: 80px;
+  height: 80px;
+}
+.header .logo-title .title {
+  font-size: 36px;
+  color: #fcee56;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Центрирование изображения */
+.center-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.center-image img {
+  width: 300px;
+  height: auto;
+}
+
+/* Контактная информация */
+.info {
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* Оформление формы */
+.form-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #1f2232;
+  border-radius: 20px;
+}
+.form-wrapper .support-text {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-wrapper .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-wrapper .form input,
+.form-wrapper .form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.form-wrapper .form button {
+  background-color: rgba(134, 131, 131, 0.9960784314);
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-wrapper .form button:hover {
+  background-color: #a58f3b;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .header .logo-title .title {
+    font-size: 28px;
+  }
+  .center-image img {
+    width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .header .logo-title .title {
+    font-size: 24px;
+  }
+  .center-image img {
+    width: 150px;
+  }
+}/*# sourceMappingURL=style2.css.map */

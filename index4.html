@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тени Куклис - Галерея</title>
+    <link rel="stylesheet" href="css_2/style4.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <img src="pictures/логотип Тени Кулис, менее яркий.png" alt="Логотип" class="logo">
+            </a>
+            <h1>Галерея</h1>
+        </header>
+        <main>
+            <div class="gallery-container">
+                <div class="gallery-grid" id="gallery-content">
+                    <!-- Контент будет добавлен через XSLT трансформацию -->
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+    Promise.all([
+        fetch('xml_4.xml').then(r => r.text()),
+        fetch('xslt_4.xsl').then(r => r.text())
+    ]).then(([xmlString, xslString]) => {
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(xmlString, 'text/xml');
+        const xsl = parser.parseFromString(xslString, 'text/xml');
+        const xsltProcessor = new XSLTProcessor();
+        xsltProcessor.importStylesheet(xsl);
+        const resultDocument = xsltProcessor.transformToFragment(xml, document);
+        document.getElementById('gallery-content').appendChild(resultDocument);
+    });
+    </script>
+</body>
+</html>

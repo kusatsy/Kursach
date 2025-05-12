@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/Kursovou project/css/globals2.css" />
+    <link rel="stylesheet" href="/Kursovou project/css/style2.css" />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="div">
+        <img class="image" src="https://c.animaapp.com/m9jmpi4zM3gOk2/img/-----------.png" />
+        <img class="element" src="https://c.animaapp.com/m9jmpi4zM3gOk2/img/--------------------------------1.png" />
+        <div class="overlap">
+          <div class="text-wrapper">Адресс :</div>
+          <div class="overlap-group">
+            <div class="text-wrapper-2">Республика Беларусь,</div>
+            <div class="text-wrapper-3">220006,г.Минск,Свердлова, 13А</div>
+          </div>
+        </div>
+        <div class="group">
+          <img class="vector" src="https://c.animaapp.com/m9jmpi4zM3gOk2/img/vector.svg" />
+          <div class="text-wrapper-4">Тени Куклис</div>
+        </div>
+        <p class="p">По любым вопросам пиши нам на почту</p>
+        <div class="text-wrapper-5">Телефон :</div>
+        <div class="text-wrapper-6">8029-343-94-32</div>
+        <div class="text-wrapper-7">Почта :</div>
+        <div class="text-wrapper-8">root@belstu.by</div>
+        <div><input type="text" placeholder="Имя" class="div-wrapper"></div>
+        <div class="text-wrapper-10" ><input type="text" placeholder="Телефон" class="overlap-2"></div>
+        <div class="text-wrapper-11"><input type="text" placeholder="Почта" class="overlap-3"></div>
+        <div class="text-wrapper-12">
+            <textarea placeholder="Напишите" class="overlap-4"></textarea></div>
+        <div class="text-wrapper-13"><input type="submit" class="overlap-5"></div>
+        <div class="text-wrapper-14"><input type="reset" class="overlap-6"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+.frame {
+  background-color: #2f3148;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #2f3148;
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.frame .image {
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .element {
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  top: 7px;
+  left: 532px;
+  object-fit: cover;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 637px;
+  height: 102px;
+  top: 383px;
+  left: 27px;
+}
+
+.frame .text-wrapper {
+  width: 159px;
+  top: 0;
+  left: 0;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 637px;
+  height: 94px;
+  top: 8px;
+  left: 0;
+}
+
+.frame .text-wrapper-2 {
+  width: 460px;
+  top: 0;
+  left: 177px;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-3 {
+  width: 595px;
+  top: 45px;
+  left: 0;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .group {
+  position: absolute;
+  width: 266px;
+  height: 119px;
+  top: 20px;
+  left: 22px;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 37px;
+  height: 73px;
+  top: 23px;
+  left: 0;
+}
+
+.frame .text-wrapper-4 {
+  width: 211px;
+  top: -1px;
+  left: 52px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #fcee56;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .p {
+  width: 709px;
+  top: 391px;
+  left: 707px;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-5 {
+  width: 211px;
+  top: 517px;
+  left: 34px;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  width: 411px;
+  top: 574px;
+  left: 34px;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  line-height: normal;
+}
+
+.frame .text-wrapper-7 {
+  width: 144px;
+  top: 651px;
+  left: 37px;
+  font-family: "Krona One", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  width: 385px;
+  top: 723px;
+  left: 27px;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  line-height: normal;
+}
+
+.frame .div-wrapper {
+  position: absolute;
+  width: 253px;
+  height: 65px;
+  top: 492px;
+  left: 603px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.div-wrapper::placeholder{
+    font-size: large;
+   display: inline-block;
+   margin-left:30px ;
+}
+
+.frame .text-wrapper-9 {
+  width: 121px;
+  top: 12px;
+  left: 14px;
+  font-family: "Krona One", Helvetica;
+  color: #00000085;
+  font-size: 28px;
+  letter-spacing: 2.80px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 253px;
+  height: 65px;
+  top: 482px;
+  left: 1163px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.overlap-2::placeholder{
+    font-size: large;
+}
+
+.frame .text-wrapper-10 {
+  width: 174px;
+  top: 13px;
+  left: 9px;
+  font-family: "Krona One", Helvetica;
+  color: #00000085;
+  font-size: 28px;
+  letter-spacing: 2.80px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 253px;
+  height: 67px;
+  top: 480px;
+  left: 881px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.overlap-3::placeholder{
+    font-size: large;
+}
+
+.frame .text-wrapper-11 {
+  width: 139px;
+  top: 13px;
+  left: 4px;
+  font-family: "Krona One", Helvetica;
+  color: #00000085;
+  font-size: 28px;
+  letter-spacing: 2.80px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-4 {
+    position: absolute;
+    width: 820px;
+    height: 160px;
+    top: 590px;
+    left: 566px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+    overflow-y: auto;
+    padding: 20px; 
+}
+
+.overlap-4::placeholder {
+    font-size: 25px; 
+}
+
+
+.frame .text-wrapper-12 {
+  width: 190px;
+  top: 17px;
+  left: 38px;
+  font-family: "Krona One", Helvetica;
+  color: #00000085;
+  font-size: 28px;
+  letter-spacing: 2.80px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-5 {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    top: 790px;
+    left: 881px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    font-size: 24px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .frame .overlap-5::-moz-submit-invalid {
+    font-size: 30px; /* Увеличение надписи */
+  }
+  
+
+.frame .text-wrapper-13 {
+  width: 189px;
+  top: 14px;
+  left: 16px;
+  font-family: "Krona One", Helvetica;
+  color: #000000;
+  
+  letter-spacing: 2.60px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-6 {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    top: 791px;
+    left: 1179px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    font-size: 24px; /* Увеличение размера надписи */
+    display: flex; /* Центрирование текста */
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.frame .text-wrapper-14 {
+  width: 195px;
+  top: 18px;
+  left: 25px;
+  font-family: "Krona One", Helvetica;
+  color: #000000;
+  font-size: 26px;
+  letter-spacing: 2.60px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}

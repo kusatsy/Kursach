@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Театр 'Тени Куклис' - уникальные постановки и галерея театральных работ">
+    <title>Тени Куклис - Главная</title>
+    <link rel="stylesheet" href="css_2/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", "sans-serif";
+    background-color: #1d283b;
+    background-image: url("../Kursovou\ project/pictures/логотип Тени Кулис, менее яркий.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FCEE56;
+    min-height: 100vh;
+  }
+      /* Стили для уведомления */
+      #thank-you-notification {
+          display: none;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(29, 40, 59, 0.95);
+          color: #FCEE56;
+          padding: 40px;
+          border-radius: 12px;
+          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+          z-index: 2000;
+          text-align: center;
+          border: 1px solid #CFA448;
+          max-width: 90%;
+          width: 400px;
+          animation: fadeIn 0.3s ease-out;
+      }
+      
+      #thank-you-notification p {
+          font-family: "Krona One", Helvetica, sans-serif;
+          font-size: 1.5rem;
+          margin: 0 0 25px 0;
+          line-height: 1.4;
+      }
+      
+      #thank-you-notification button {
+          margin-top: 15px;
+          padding: 12px 25px;
+          background-color: #FCEE56;
+          color: #000;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-weight: bold;
+          transition: all 0.3s;
+          font-family: "Krona One", Helvetica, sans-serif;
+          font-size: 1rem;
+      }
+      
+      #thank-you-notification button:hover {
+          background-color: #e6d74d;
+          transform: translateY(-2px);
+      }
+      
+      @keyframes fadeIn {
+          from { opacity: 0; transform: translate(-50%, -45%); }
+          to { opacity: 1; transform: translate(-50%, -50%); }
+      }
+  </style>
+</head>
+<body>
+    <header class="page-header">
+        <button class="mobile-menu-toggle" aria-label="Открыть меню" onclick="toggleMenu()">
+            <img src="./pictures/align-justify_3917105.svg" alt="Меню">
+        </button>
+        
+        <button class="icon-top-right" aria-label="Открыть форму регистрации" onclick="showForm()">
+            <img src="./pictures/user-pen_9843663.svg" alt="Открыть форму">
+        </button>
+    </header>
+
+    <main class="main-content">
+        <section class="branding">
+            <div class="logo">
+                <svg width="38" height="73" viewBox="0 0 38 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.9723 0.5C19.9555 7.7266 19.578 14.0434 19.2179 20.0605L19.6811 20.0882L19.2179 20.0605L19.2175 20.0675C19.0347 23.1238 18.8564 26.1044 18.733 29.0852C18.6103 26.1355 18.4337 23.189 18.2524 20.1646L18.2519 20.1565L18.2519 20.1565L18.2514 20.149L18.2509 20.1428C17.8904 14.1321 17.5111 7.80692 17.4944 0.5H19.9723ZM4.81918 13.0666L6.71445 9.37959C9.22713 14.3751 11.1847 19.1886 13.0511 23.7789L13.4447 23.6189L13.0511 23.7789L13.0573 23.7943C14.4023 27.1021 15.7018 30.2982 17.126 33.3502C15.6511 30.7936 14.11 28.4202 12.5228 25.9757L12.5132 25.961L12.5132 25.961C10.0521 22.1713 7.47379 18.2008 4.81918 13.0666ZM18.3451 35.5395C18.2521 35.366 18.1588 35.1936 18.0652 35.0223L18.7326 34.8629L19.4014 35.0226C19.3078 35.1939 19.2146 35.3661 19.1216 35.5395L18.7334 36.2637L18.3451 35.5395ZM24.9439 25.9756C23.357 28.4196 21.8162 30.7926 20.3416 33.3486C21.7659 30.2962 23.0655 27.0998 24.4106 23.7914L24.4156 23.7789C26.282 19.1886 28.2396 14.3751 30.7523 9.37959L32.6476 13.0666C29.9939 18.1988 27.4165 22.1683 24.9563 25.9567L24.9562 25.9566L24.9511 25.9645L24.9439 25.9756ZM25.3705 26.2367L25.3705 26.2368L25.3705 26.2367ZM18.7333 36.3102L18.7589 36.3113L18.7578 36.3092L19.5828 36.2753C22.1522 36.1697 24.6367 35.6057 27.1839 35.0274L27.2059 35.0224C30.2304 34.3357 33.3666 33.6252 36.9667 33.564V39.3234C33.4074 39.2619 30.2768 38.5549 27.2502 37.8698L27.2337 37.866L27.2313 37.8656L27.2268 37.8646C24.6644 37.2846 22.1609 36.7179 19.5828 36.6122L18.7578 36.5783L18.7589 36.5762L18.7327 36.5773L18.7078 36.5763L18.7089 36.5783L17.8839 36.6122C15.3058 36.7181 12.8023 37.2846 10.24 37.8644L10.2165 37.8697L10.2165 37.8698C7.18987 38.5549 4.05935 39.2619 0.5 39.3234V33.564C4.10013 33.6252 7.23634 34.3357 10.2608 35.0224L10.2828 35.0274C12.83 35.6057 15.3145 36.1697 17.8839 36.2753L18.709 36.3092L18.7079 36.3113L18.7333 36.3102ZM20.3406 39.5365C21.8068 42.077 23.3358 44.4298 24.9129 46.8564L24.9161 46.8616L24.9207 46.8687C27.38 50.6531 29.9628 54.6278 32.6476 59.8209L30.7523 63.5079C28.2691 58.5695 26.3153 53.7687 24.4482 49.1795L24.4461 49.174L24.4462 49.1739L24.443 49.1658L24.4391 49.1558L24.4391 49.1558L24.4367 49.15L24.4331 49.141C23.0802 45.8173 21.7709 42.6007 20.3406 39.5365ZM19.1217 37.348C19.2146 37.5214 19.3079 37.6937 19.4014 37.8649L18.7333 38.0244L18.0653 37.8649C18.1588 37.6937 18.2521 37.5214 18.3451 37.348L18.7334 36.6239L19.1217 37.348ZM12.5538 46.8564C14.1309 44.4298 15.6599 42.077 17.1261 39.5365C15.6958 42.6007 14.3865 45.8173 13.0336 49.1411L13.03 49.15L13.0299 49.1499L13.0276 49.1558L13.0237 49.1658L13.0236 49.1658L13.0206 49.1739L13.0185 49.1795C11.1514 53.7686 9.19761 58.5694 6.71443 63.5079L4.81917 59.8209C7.5039 54.6278 10.0867 50.6531 12.546 46.8687L12.5506 46.8616L12.5538 46.8564ZM18.2523 52.7235C18.4336 49.6989 18.6103 46.7522 18.733 43.8022C18.8564 46.7831 19.0347 49.7637 19.2175 52.82L19.2179 52.827L19.717 52.7972L19.2179 52.827C19.578 58.8442 19.9555 65.1609 19.9723 72.3875H17.4944C17.5111 65.0807 17.8904 58.7554 18.2509 52.7447C18.251 52.7435 18.251 52.7423 18.2511 52.7411L18.2514 52.7385L18.2514 52.7385L18.2519 52.7311L18.2523 52.7235Z" fill="#FCEE56" stroke="#CFA448"/>
+                </svg>
+                <h1 class="logo-text">Тени Куклис</h1>
+            </div>
+            
+            <nav class="nav" aria-label="Основное меню">
+                <a href="index3.html">О нас</a>
+                <a href="index2.html">Контакты</a>
+                <a href="index4.html">Галерея</a>
+            </nav>
+        </section>
+
+        <div class="content-wrapper">
+            <article class="main-content-area">
+                <section class="featured" aria-labelledby="featured-heading">
+                    <h2 id="featured-heading">За зеркальной гранью</h2>
+                    <p>
+                        Магическое зеркало из гримерной становится символом изменений: оно отражает не только внешность, но и 
+                        внутренние страхи, амбиции и надежды персонажей. Каждый герой проходит через своё отражение, 
+                        сталкиваясь с вопросами: что оставить в прошлом, а что взять с собой в будущее.
+                    </p>
+                </section>
+            </article>
+            
+            <aside class="events-column" aria-label="Ближайшие события">
+                <section class="events">
+                    <h2>Ближайшие события</h2>
+                    
+                    <div class="event-item">
+                        <time datetime="2025-04-12" class="event-date">12 апреля 2025</time>
+                        <div class="event-title">Плач Занавеса</div>
+                    </div>
+                    
+                    <div class="event-item">
+                        <time datetime="2025-04-12" class="event-date">12 апреля 2025</time>
+                        <div class="event-title">Вздохи сцены</div>
+                    </div>
+                    
+                    <div class="event-item">
+                        <time datetime="2025-04-15" class="event-date">15 апреля 2025</time>
+                        <div class="event-title">Голоса из Пустоты</div>
+                    </div>
+                    
+                    <div class="event-item">
+                        <time datetime="2025-04-15" class="event-date">15 апреля 2025</time>
+                        <div class="event-title">Свет и тени</div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <dialog id="popup-form" aria-labelledby="form-heading">
+        <div class="form-wrapper">
+            <h2 id="form-heading">Регистрация</h2>
+            <form method="dialog">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required>
+                
+                <label for="play-title">Название пьесы:</label>
+                <input type="text" id="play-title" name="play-title" placeholder="Какую пьесу хотите посетить?">
+                
+                <div class="button-group">
+                    <button type="submit">Отправить</button>
+                    <button type="button" onclick="closeForm()">Закрыть</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <dialog id="thank-you-notification" aria-labelledby="notification-heading">
+      <div class="notification-content">
+          <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 20px;">
+              <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#FCEE56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p id="notification-heading">Спасибо, что выбрали наш театр!</p>
+          <p>Наши сотрудники свяжутся с вами позже.</p>
+          <button onclick="closeNotification()">Закрыть</button>
+      </div>
+  </dialog>
+
+  <script>
+    document.querySelector('#popup-form form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Закрываем форму
+        closeForm();
+        
+        // Показываем уведомление с задержкой для плавности
+        setTimeout(function() {
+            const notification = document.getElementById('thank-you-notification');
+            notification.showModal();
+            
+            // Добавляем анимацию появления
+            notification.style.display = 'block';
+        }, 300);
+        
+        // Сбрасываем форму
+        this.reset();
+    });
+    
+    function closeNotification() {
+        const notification = document.getElementById('thank-you-notification');
+        notification.close();
+        notification.style.display = 'none';
+    }
+    
+    function showForm() {
+        document.getElementById('popup-form').showModal();
+        document.querySelector('.icon-top-right').style.display = 'none';
+    }
+    
+    function closeForm() {
+        document.getElementById('popup-form').close();
+        document.querySelector('.icon-top-right').style.display = 'block';
+    }
+    
+    function toggleMenu() {
+        const nav = document.querySelector('.nav');
+        nav.classList.toggle('active');
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('.nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+    });
+</script>
+</body>
+</html>

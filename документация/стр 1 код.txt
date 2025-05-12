@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/Kursovou project/css/style.css">
+    <link rel="stylesheet" href="/Kursovou project/css/globals.css">
+  </head>
+  <body>
+    <div id="frame" class="frame">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="div">
+            <div class="overlap-group">
+              <div class="div-2">
+                <div class="overlap-group-2">
+                  <img class="line" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/line-1.svg" />
+                  <p class="element">
+                    <span class="text-wrapper">12 </span>
+                    <span class="span">апреля</span>
+                    <span class="text-wrapper"> 2025</span>
+                  </p>
+                </div>
+                <img class="img" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/line-2.svg" />
+                <img class="line-2" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/line-3.svg" />
+                <p class="p">
+                  <span class="text-wrapper">12 </span>
+                  <span class="span">апреля</span>
+                  <span class="text-wrapper"> 2025</span>
+                </p>
+                <p class="element-2">
+                  <span class="text-wrapper">15 </span>
+                  <span class="span">апреля</span>
+                  <span class="text-wrapper"> 2025</span>
+                </p>
+                <p class="element-3">
+                  <span class="text-wrapper">15 </span>
+                  <span class="span">апреля</span>
+                  <span class="text-wrapper"> 2025</span>
+                </p>
+                <div class="text-wrapper-2">Плач Занавеса</div>
+                <div class="text-wrapper-3">Вздохи сцены</div>
+                <div class="text-wrapper-4">Свет и тени</div>
+                <img class="user-pen" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/user-pen-9843663-1.svg" />
+              </div>
+              <div class="text-wrapper-5">Голоса из Пустоты</div>
+            </div>
+            <div class="overlap-group-wrapper">
+              <div class="overlap-2">
+                <p class="text-wrapper-6">
+                  Магическое зеркало из гримерной становится символом изменений: оно отражает не только внешность, но и
+                  внутренние страхи, амбиции и надежды персонажей. Каждый герой проходит через своё отражение,
+                  сталкиваясь с вопросами: что оставить в прошлом, а что взять с собой в будущее.
+                </p>
+                <div class="text-wrapper-7">За зеркальной гранью</div>
+              </div>
+            </div>
+          </div>
+          <div class="div-3"></div>
+          <div class="group">
+            <div class="div-4">
+              <img class="vector" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/vector.svg" />
+              <div class="text-wrapper-8">Тени Куклис</div>
+              <div class="div-4">
+                <img class="vector" src="https://c.animaapp.com/m9jih8xyWCeVYM/img/vector.svg" />
+                <div class="text-wrapper-8">Тени Куклис</div>
+              </div>
+            </div>
+            <div class="text-wrapper-9">О нас</div>
+            <div class="text-wrapper-10">Контакты</div>
+            <div class="text-wrapper-11">Главная</div>
+            <div class="text-wrapper-12">Галерея</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+#frame{
+  background-size: 200px 150px;
+}
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  
+  display: flex;
+}
+
+.frame .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+.frame .overlap {
+  position: relative;
+  height: 902px;
+}
+
+.frame .div {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  top: 0;
+  left: 340px;
+  overflow: hidden;
+  background-image: url(https://c.animaapp.com/m9jih8xyWCeVYM/img/frame-3.png);
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 308px;
+  height: 900px;
+  top: 0;
+  left: 821px;
+}
+
+.frame .div-2 {
+  position: absolute;
+  width: 308px;
+  height: 900px;
+  top: 0;
+  left: 0;
+  background-color: #1d283b80;
+  overflow: hidden;
+}
+
+.frame .overlap-group-2 {
+  position: absolute;
+  width: 311px;
+  height: 66px;
+  top: 124px;
+  left: 25px;
+}
+
+.frame .line {
+  top: 54px;
+  left: 54px;
+  position: absolute;
+  width: 122px;
+  height: 13px;
+}
+
+.frame .element {
+  position: absolute;
+  width: 311px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 2.00px;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  color: #fcee56;
+  letter-spacing: 0.40px;
+}
+
+.frame .span {
+  color: #fcee56;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+}
+
+.frame .img {
+  top: 362px;
+  left: 79px;
+  position: absolute;
+  width: 122px;
+  height: 13px;
+}
+
+.frame .line-2 {
+  top: 574px;
+  left: 79px;
+  position: absolute;
+  width: 122px;
+  height: 13px;
+}
+
+.frame .p {
+  width: 269px;
+  top: 274px;
+  position: absolute;
+  left: 33px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 2.00px;
+  line-height: normal;
+}
+
+.frame .element-2 {
+  width: 364px;
+  top: 472px;
+  position: absolute;
+  left: 33px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 2.00px;
+  line-height: normal;
+}
+
+.frame .element-3 {
+  width: 364px;
+  top: 709px;
+  position: absolute;
+  left: 33px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 2.00px;
+  line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+  width: 275px;
+  top: 416px;
+  left: 43px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  color: #fcee56;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-3 {
+  width: 276px;
+  top: 65px;
+  left: 42px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  color: #fcee56;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+  width: 292px;
+  top: 639px;
+  left: 7px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #fcee56;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .user-pen {
+  position: absolute;
+  width: 63px;
+  height: 61px;
+  top: 0;
+  left: 216px;
+}
+
+.frame .text-wrapper-5 {
+  width: 273px;
+  top: 211px;
+  left: 5px;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  color: #fbed56;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 702px;
+  height: 301px;
+  top: 404px;
+  left: 105px;
+  background-color: #0c121c73;
+}
+
+.frame .overlap-2 {
+  position: relative;
+  width: 665px;
+  height: 301px;
+  top: -2px;
+  left: 36px;
+}
+
+.frame .text-wrapper-6 {
+  width: 665px;
+  top: 73px;
+  left: 0;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  color: #fcee56;
+  font-size: 24px;
+  letter-spacing: 2.40px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-7 {
+  width: 664px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 1px #cea448;
+  font-family: "Krona One", Helvetica;
+  color: #fcee56;
+  font-size: 48px;
+  letter-spacing: 4.80px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .div-3 {
+  position: absolute;
+  width: 340px;
+  height: 900px;
+  top: 2px;
+  left: 0;
+  background-color: #2f3148;
+}
+
+.frame .group {
+  position: absolute;
+  width: 351px;
+  height: 791px;
+  top: 38px;
+  left: 16px;
+}
+
+.frame .div-4 {
+  position: absolute;
+  width: 343px;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 47px;
+  height: 49px;
+  top: 12px;
+  left: 0;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  width: 264px;
+  top: 0;
+  left: 77px;
+  font-family: "Kiwi Maru", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  line-height: normal;
+}
+
+.frame .text-wrapper-9 {
+  width: 256px;
+  top: 330px;
+  left: 57px;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-10 {
+  width: 304px;
+  top: 717px;
+  left: 20px;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-11 {
+  width: 319px;
+  top: 188px;
+  left: 4px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 4.00px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame .text-wrapper-12 {
+  width: 309px;
+  top: 526px;
+  left: 23px;
+  font-family: "Kiwi Maru", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 3.20px;
+  position: absolute;
+  font-weight: 400;
+  line-height: normal;
+}
